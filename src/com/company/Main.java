@@ -38,8 +38,17 @@ public class Main {
         byte myNewByteValue = (byte) (myMinByteValue / 2);
         short myNewShortValue = (short) (myMinShortValue / 2);
 
-        
+        byte anyByteNumber = 24;
+        short anyShortNumber = 100;
+        int anyIntNumber = 1010;
 
+        // Code challenge!!!
+
+        long total = 5000L + 10L * (anyByteNumber + anyShortNumber + anyIntNumber);
+        System.out.println("Your sum is: " + total);
+
+        short shortTotal = (short) (5000 + 10 * (anyByteNumber + anyShortNumber + anyIntNumber));
+        System.out.println(shortTotal);
 
 
     }
